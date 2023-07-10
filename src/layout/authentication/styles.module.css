@@ -1,0 +1,17 @@
+.auth-layout {
+    @apply w-full h-screen flex flex-col md:flex-row;
+}
+
+.desktop-hint {
+    @apply text-white hidden md:block;
+}
+
+.auth-layout-logo {
+    @apply h-full w-full md:p-24 md:pb-16 p-12 flex flex-col justify-between relative overflow-hidden
+
+}
+
+.bgWrap {
+    z-index: -1;
+    object-fit: cover;
+  }

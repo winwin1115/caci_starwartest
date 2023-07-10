@@ -1,0 +1,19 @@
+.header {
+    @apply h-20 flex items-center mb-24 pl-20 cursor-pointer shadow-xl;  
+}
+
+.menu-button-normal{
+    @apply  h-[45px] sm:h-[68px] py-[22px] pl-[34px] pr-4 flex items-center text-menu-btn-color-click bg-menu-btn-color-bg border-b border-menu-btn-color-border rounded-none
+}
+
+.menu-button-select{
+    @apply h-[45px] sm:h-[68px] py-[22px] pl-[34px] pr-4 flex items-center border-b border-menu-btn-color-border rounded-none
+}
+
+.menu-button-normal2{
+    @apply h-[35px] sm:h-[44px] py-[12px] pl-[50px] pr-4 flex items-center text-menu-btn-color-click bg-menu-btn-color-bg border-b border-menu-btn-color-border rounded-none
+}
+
+.menu-button-select2{
+    @apply h-[35px] sm:h-[44px] py-[12px] pl-[50px] pr-4 flex items-center border-b border-menu-btn-color-border rounded-none
+}
