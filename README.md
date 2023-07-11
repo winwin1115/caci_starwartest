@@ -24,6 +24,12 @@ git clone https://github.com/winwin1115/caci_starwartest.git
 yarn install
 ```
 
+- Copy .env.example to .env
+
+```bash
+cp .env.example .env
+```
+
 - Run Next.js server
 
 ```bash

@@ -8,7 +8,7 @@ const Description: React.FC<IHeaderProps> = ({ title }) => {
   return (
     <>
       <h3 className="text-xl font-semibold font-inter text-center text-yellow-300">
-        Sample Vue 3 project using the SWAPI API
+        Sample Next.js project using the SWAPI API
       </h3>
       <p className="text-lg font-medium text-center text-yellow-300">
         Results are filtered to starships with a crew less than 10 and sorted by
